@@ -1,0 +1,7 @@
+
+<form *ngIf="searchForm" [formGroup]="searchForm">
+  <div *ngIf="true">
+    <!-- xyz.test should throw an error -->
+    <div *ngIf="xyz.test"></div>
+  </div>
+</form>
